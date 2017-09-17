@@ -21,6 +21,21 @@
     },
     {
       "type": "cue",
+      "id": "tunnelEn/three",
+      "deprecatedIDs": [],
+      "name": "count in - three",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tunnelEn/one",
+      "deprecatedIDs": [],
+      "name": "count in - four",
+      "duration": 1.0
+    },
+
+    {
+      "type": "cue",
       "id": "tunnelEn/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
@@ -43,9 +58,10 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "tunnelEn_cowbell",
       "deprecatedIDs": [],
+      "defaultDuration": 2.0,
       "name": "cowbell",
       "cues": [
         {
